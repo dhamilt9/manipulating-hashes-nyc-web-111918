@@ -16,7 +16,7 @@ def first_challenge
   #your code here
 contacts["Jon Snow"][:favorite_icecream_flavors].each do |value|
   if value="strawberry"
-    contacts["Jon Snow"][:favorite_icecream_flavors].delete("value")
+    puts "Yup"
   end
 
   #remember to return your newly altered contacts hash!
