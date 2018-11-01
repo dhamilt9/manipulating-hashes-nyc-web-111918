@@ -16,7 +16,7 @@ def first_challenge
   #your code here
   contacts["Jon Snow"][:favorite_icecream_flavors].each do |value|
     if value="strawberry"
-      puts "Yup"
+      contacts["Jon Snow"][:favorite_icecream_flavors].delete(value)
     end
   end
 
